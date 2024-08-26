@@ -9,6 +9,7 @@ using ArrayFuncionario;
 //Informe se encontrou.
 
 Funcionario[] vetFuncionarios = new Funcionario[3];
+double soma = 0;
 for (int i = 0; i < vetFuncionarios.Length; i++)
 {
     vetFuncionarios[i] = new Funcionario(); 
@@ -18,26 +19,43 @@ for (int i = 0; i < vetFuncionarios.Length; i++)
     vetFuncionarios[i].nome = Console.ReadLine();
     System.Console.Write("Informe o salário do funcionário: ");
     vetFuncionarios[i].salario = Convert.ToDouble(Console.ReadLine());
+    soma += vetFuncionarios[i].salario;
 }
 
-double soma = 0;
+foreach (Funcionario f in vetFuncionarios)
+{
+    f.MostrarAtributos();
+}
+System.Console.WriteLine($"Soma dos salários dos funcionários: {soma:c}\n");
+
 int qtd = 0;
 foreach (Funcionario f in vetFuncionarios)
 {
-    soma += f.salario; 
     if (f.salario == 100)
     {
-        System.Console.WriteLine("O funcionário:"+ f.nome +" possui um salário de R$100,00.");
-        f.MostrarAtributos();
+        System.Console.WriteLine("O funcionário: "+ f.nome +" possui um salário de R$100,00.");
         qtd += 1;
     }
 }
 
 if (qtd == 0)
     {
-        System.Console.WriteLine("Não foram encontrádos funcionários que possuam um salário de R$100,00.");
+        System.Console.WriteLine("Não foram encontrados funcionários que possuam um salário de R$100,00.");
     }
 
-System.Console.WriteLine("Soma dos salários dos funcionários: " +soma);
 System.Console.WriteLine("Quantidade de funcionários com salário igual a $100,00: "+ qtd);
 
+/*Solução em sala
+
+bool encontrado = false;
+foreach(Funcionario f in vetFuncionarios)
+{
+    if(f.salario == 100)
+        encontrado = true;
+}
+
+if (encontrado) // (encontrado == true)
+    System.Console.WriteLine("Funcionário encontrado!");
+else
+    System.Console.WriteLine("Funcionário não encontrado!");
+*/
