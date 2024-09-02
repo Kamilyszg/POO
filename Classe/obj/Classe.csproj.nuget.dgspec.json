@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aluno\\Downloads\\POOnoite\\Classe\\Classe.csproj": {}
+    "C:\\Users\\aluno\\Downloads\\poo\\POO\\Classe\\Classe.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aluno\\Downloads\\POOnoite\\Classe\\Classe.csproj": {
+    "C:\\Users\\aluno\\Downloads\\poo\\POO\\Classe\\Classe.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aluno\\Downloads\\POOnoite\\Classe\\Classe.csproj",
+        "projectUniqueName": "C:\\Users\\aluno\\Downloads\\poo\\POO\\Classe\\Classe.csproj",
         "projectName": "Classe",
-        "projectPath": "C:\\Users\\aluno\\Downloads\\POOnoite\\Classe\\Classe.csproj",
+        "projectPath": "C:\\Users\\aluno\\Downloads\\poo\\POO\\Classe\\Classe.csproj",
         "packagesPath": "C:\\Users\\aluno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aluno\\Downloads\\POOnoite\\Classe\\obj\\",
+        "outputPath": "C:\\Users\\aluno\\Downloads\\poo\\POO\\Classe\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\aluno\\AppData\\Roaming\\NuGet\\NuGet.Config"

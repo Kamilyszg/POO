@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EncapsulamentoAluno")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b3860fd28e8062df7ad01e38a7a67d8fe44315a3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f0bcd3af938d10760deb6a488bf338c03cb44f13")]
 [assembly: System.Reflection.AssemblyProductAttribute("EncapsulamentoAluno")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EncapsulamentoAluno")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -23,6 +23,12 @@ namespace Classe
 
         }
 
+        public void Transferencia(double valorTransferencia, Conta outroObjeto)
+        {
+            saldo -= valorTransferencia;
+            outroObjeto.saldo = valorTransferencia;
+        }
+
         public string toString()
         {
             return "número da conta: " + numero + "\ttítular da conta: " + titular + "\tsaldo da conta: " + saldo; //método que substitui a apresentação

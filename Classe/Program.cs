@@ -6,7 +6,7 @@ Conta c1; //declaração de uma variável
 c1 = new Conta();  //instância de um objeto do new pra frente
 c1.numero = 1;
 c1.titular = "Fatec";
-c1.saldo = 100;
+c1.saldo = 100 + 200;
 Console.WriteLine("Número: "+ c1.numero +"\tTítular: "+ c1.titular +"\tSaldo: " + c1.saldo);
 
 Conta c2 = new Conta();
@@ -15,6 +15,12 @@ c2.numero = 2;
 c2.titular = "Empresa Jr";
 c2.saldo = 200;
 Console.WriteLine("Número: "+ c2.numero +"\tTítular: "+ c2.titular +"\tSaldo: " + c2.saldo);
+
+c2.Transferencia(50, c1); 
+
+System.Console.WriteLine("\nApós a execução da transferência");
+System.Console.WriteLine("Número: "+ c2.numero +"\tTítular: "+ c2.titular +"\tSaldo: " + c2.saldo);
+System.Console.WriteLine("Número: "+ c1.numero +"\tTítular: "+ c1.titular +"\tSaldo: " + c1.saldo);
 
 Conta c3 = new Conta();
 Console.Write("Cadastre o número da conta: ");
