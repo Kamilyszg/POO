@@ -14,5 +14,18 @@ namespace ConstrutorProduto
 
         // Criar 3 Construtores
         // Criar o método MostrarAtributos()
+        public Produto(){
+            //Construtor Padrão
+        }
+        public Produto(int Codigo){
+            this.Codigo = Codigo;
+        }
+        public Produto(int Codigo, string Nome){
+            this.Codigo = Codigo;
+            this.Nome = Nome;
+        }
+        public void MostrarAtributos(){
+            Console.WriteLine("Código: "+ Codigo +"\tNome: " + Nome + "\tPreço: " + Preco + "\tQuantidade: " + Qtde);
+        }
     }
 }

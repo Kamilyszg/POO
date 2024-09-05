@@ -12,3 +12,4 @@ c3.MostrarAtributos();
 
 Conta c4 = new Conta(40, "Bia", 50);
 c4.MostrarAtributos();
+System.Console.WriteLine("Quantidade de instâncias "+ Conta.Contador);
