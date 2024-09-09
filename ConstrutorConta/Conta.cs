@@ -12,7 +12,7 @@ namespace ConstrutorConta
          private string titular;
          private double saldo;
 
-         private static int contador; //atributo estático não pode ser ocntrolado por objetos e sim pela clsse
+         private static int contador; //atributo estático não pode ser controlado por objetos e sim pela clsse
          public static int Contador{
             get{
                return contador;
