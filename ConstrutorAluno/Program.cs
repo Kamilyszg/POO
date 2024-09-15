@@ -1,4 +1,6 @@
-﻿internal class Program
+﻿using ConstrutorAluno;
+
+internal class Program
 {
     private static void Main(string[] args)
     {
@@ -11,5 +13,14 @@
         Instancie pelo menos 2 objetos de construtores diferentes (a maricula é para ser gerada)
         Entregar no Teams o arquivo Aluno.cs e Program.cs até dia 18/09
         */
+
+        Aluno a1 = new Aluno();
+        a1.MostrarAtributos();
+
+        Aluno a2 = new Aluno("Matheus");
+        a2.MostrarAtributos();
+
+        Aluno a3 = new Aluno("Ana");
+        a3.MostrarAtributos();
     }
 }

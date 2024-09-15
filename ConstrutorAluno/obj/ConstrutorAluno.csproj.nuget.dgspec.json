@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aluno\\Downloads\\poo\\POO\\ConstrutorAluno\\ConstrutorAluno.csproj": {}
+    "C:\\Users\\kamil\\Documents\\POO\\POO\\ConstrutorAluno\\ConstrutorAluno.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aluno\\Downloads\\poo\\POO\\ConstrutorAluno\\ConstrutorAluno.csproj": {
+    "C:\\Users\\kamil\\Documents\\POO\\POO\\ConstrutorAluno\\ConstrutorAluno.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aluno\\Downloads\\poo\\POO\\ConstrutorAluno\\ConstrutorAluno.csproj",
+        "projectUniqueName": "C:\\Users\\kamil\\Documents\\POO\\POO\\ConstrutorAluno\\ConstrutorAluno.csproj",
         "projectName": "ConstrutorAluno",
-        "projectPath": "C:\\Users\\aluno\\Downloads\\poo\\POO\\ConstrutorAluno\\ConstrutorAluno.csproj",
-        "packagesPath": "C:\\Users\\aluno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aluno\\Downloads\\poo\\POO\\ConstrutorAluno\\obj\\",
+        "projectPath": "C:\\Users\\kamil\\Documents\\POO\\POO\\ConstrutorAluno\\ConstrutorAluno.csproj",
+        "packagesPath": "C:\\Users\\kamil\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kamil\\Documents\\POO\\POO\\ConstrutorAluno\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\aluno\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\kamil\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -58,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
