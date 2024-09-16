@@ -10,11 +10,11 @@ namespace AgregacaoVenda
 
         public List<Produto> vetProd;
 
-        public Venda(Comprador comp, Vendedor vend, List<Produto> vetProd)
+        public Venda(Comprador comp, Vendedor vend)
         {
             this.comp = comp;
             this.vend = vend;
-            this.vetProd = vetProd;
+            vetProd = new List<Produto>();
         }
         public void AdicionarProduto(Produto prod)
         {
