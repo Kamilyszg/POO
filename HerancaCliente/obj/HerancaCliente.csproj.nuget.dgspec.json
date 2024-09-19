@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aluno\\Downloads\\Poo\\POO\\HerancaCliente\\HerancaCliente.csproj": {}
+    "C:\\Users\\aluno\\Downloads\\POO\\POO\\HerancaCliente\\HerancaCliente.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aluno\\Downloads\\Poo\\POO\\HerancaCliente\\HerancaCliente.csproj": {
+    "C:\\Users\\aluno\\Downloads\\POO\\POO\\HerancaCliente\\HerancaCliente.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aluno\\Downloads\\Poo\\POO\\HerancaCliente\\HerancaCliente.csproj",
+        "projectUniqueName": "C:\\Users\\aluno\\Downloads\\POO\\POO\\HerancaCliente\\HerancaCliente.csproj",
         "projectName": "HerancaCliente",
-        "projectPath": "C:\\Users\\aluno\\Downloads\\Poo\\POO\\HerancaCliente\\HerancaCliente.csproj",
+        "projectPath": "C:\\Users\\aluno\\Downloads\\POO\\POO\\HerancaCliente\\HerancaCliente.csproj",
         "packagesPath": "C:\\Users\\aluno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aluno\\Downloads\\Poo\\POO\\HerancaCliente\\obj\\",
+        "outputPath": "C:\\Users\\aluno\\Downloads\\POO\\POO\\HerancaCliente\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\aluno\\AppData\\Roaming\\NuGet\\NuGet.Config"

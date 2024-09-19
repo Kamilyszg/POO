@@ -31,8 +31,10 @@ namespace HerancaCliente
         {
             
         }
-        /*public void Mostrar(){
-
-        }*/
+        public void Mostrar()
+        {
+            base.Mostrar(); //Apresenta o código e o nome
+            System.Console.WriteLine("RG: "+ Rg +"\tCPF: "+ Cpf);
+        }
     }
 }
