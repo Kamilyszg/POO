@@ -1,0 +1,15 @@
+C:\Users\kamil\Documents\POO\POO\ComposicaoBanco\obj\Debug\net8.0\ComposicaoBanco.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kamil\Documents\POO\POO\ComposicaoBanco\obj\Debug\net8.0\ComposicaoBanco.AssemblyInfoInputs.cache
+C:\Users\kamil\Documents\POO\POO\ComposicaoBanco\obj\Debug\net8.0\ComposicaoBanco.AssemblyInfo.cs
+C:\Users\kamil\Documents\POO\POO\ComposicaoBanco\obj\Debug\net8.0\ComposicaoBanco.csproj.CoreCompileInputs.cache
+C:\Users\kamil\Documents\POO\POO\ComposicaoBanco\obj\Debug\net8.0\ComposicaoBanco.sourcelink.json
+C:\Users\kamil\Documents\POO\POO\ComposicaoBanco\bin\Debug\net8.0\ComposicaoBanco.exe
+C:\Users\kamil\Documents\POO\POO\ComposicaoBanco\bin\Debug\net8.0\ComposicaoBanco.deps.json
+C:\Users\kamil\Documents\POO\POO\ComposicaoBanco\bin\Debug\net8.0\ComposicaoBanco.runtimeconfig.json
+C:\Users\kamil\Documents\POO\POO\ComposicaoBanco\bin\Debug\net8.0\ComposicaoBanco.dll
+C:\Users\kamil\Documents\POO\POO\ComposicaoBanco\bin\Debug\net8.0\ComposicaoBanco.pdb
+C:\Users\kamil\Documents\POO\POO\ComposicaoBanco\obj\Debug\net8.0\ComposicaoBanco.dll
+C:\Users\kamil\Documents\POO\POO\ComposicaoBanco\obj\Debug\net8.0\refint\ComposicaoBanco.dll
+C:\Users\kamil\Documents\POO\POO\ComposicaoBanco\obj\Debug\net8.0\ComposicaoBanco.pdb
+C:\Users\kamil\Documents\POO\POO\ComposicaoBanco\obj\Debug\net8.0\ComposicaoBanco.genruntimeconfig.cache
+C:\Users\kamil\Documents\POO\POO\ComposicaoBanco\obj\Debug\net8.0\ref\ComposicaoBanco.dll
