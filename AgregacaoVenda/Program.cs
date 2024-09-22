@@ -24,7 +24,7 @@ v1.MostrarAtributos();
 cli1.MostrarAtributos();
 vendedor1.MostrarAtributos();
 
-Venda v2 = new Venda(cli2, vendedor1); //corrigir
+Venda v2 = new Venda(cli2, vendedor1);
 v2.AdicionarProduto(p2);
 v2.RealizarVenda();
 
