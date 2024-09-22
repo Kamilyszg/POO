@@ -12,8 +12,6 @@ Produto p1 = new Produto("Produto A", 150.00);
 Produto p2 = new Produto("Produto B", 250.00);
 Produto p3 = new Produto("Produto C", 100.00);
 
-
-
 Venda v1 = new Venda(cli1, vendedor1);
 
 v1.AdicionarProduto(p1);

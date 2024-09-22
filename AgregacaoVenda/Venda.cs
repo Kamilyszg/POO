@@ -35,7 +35,8 @@ namespace AgregacaoVenda
 
         public void RealizarVenda()
         {
-            double valorVenda = CalcularValorVenda(); //verifica se a verba é suficiente
+            vend.comissao = 0; //reinicia a comissção do vendedor a cada nova venda
+            double valorVenda = CalcularValorVenda(); 
             if (comp.SubtrairVerba(valorVenda)){ //se o cliente tem a verba neessária
                 double comissao = CalcularComissao(valorVenda);
                 vend.AdicionarComissao(comissao);
