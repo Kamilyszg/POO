@@ -3,7 +3,7 @@
 using ComposicaoBanco;
 
 Banco b1= new Banco();
-b1.IniciarBanco(); //reinicia os vetores
+// instanciar cc e p
 
 b1.AbrirConta();
 

@@ -11,11 +11,6 @@ namespace ComposicaoBanco
             contas = new List<ContaCorrente>();
         }
 
-        public void IniciarBanco(){
-            //método que permite resetar todas as contas manualmente
-            poups = new List<Poupanca>();
-            contas = new List<ContaCorrente>();
-        }
         public void AbrirConta(){
             ContaCorrente novaConta = new ContaCorrente();
             contas.Add(novaConta);
@@ -25,7 +20,13 @@ namespace ComposicaoBanco
             Poupanca p1 = new Poupanca();
             poups.Add(p1);
         }
-        public void DecretarFalencia(){
+
+        public bool DecretarFalencia(){
+            // variavel devedores 
+            // faliu false
+            // a quantidade de devedores > 
+        }
+        ~Banco(){
 
         }
     }
