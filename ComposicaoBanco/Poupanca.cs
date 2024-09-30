@@ -2,13 +2,23 @@ namespace ComposicaoBanco
 {
     public class Poupanca{
         private double saldo;
+        private static int contador = 1;
+        private int numeroPoups;
+        private static double taxaRendimento = 0.05;
+        public double Rendimento { get; private set; }
 
         public double Saldo{
             get {return saldo;}
+            private set {saldo = value;}
+        }
+        public int NumeroPoups{
+            get {return numeroPoups;}
+            private set {numeroPoups = value;}
         }
 
         public Poupanca(){
-            //ctor padrão - saldo= 0
+            numeroPoups = contador ++;       
+            saldo = 0; // Inicializa o saldo como 0
         }
 
         public double Depositar(double valor){
@@ -25,8 +35,14 @@ namespace ComposicaoBanco
                 return -1;
             }
         }
-        public void GerarRendimento(){
-            System.Console.WriteLine("Saldo: "+ saldo);
+        public double GerarRendimento(){
+            Rendimento = saldo * taxaRendimento;
+            saldo += Rendimento;
+            return saldo;
+        }
+
+        public void GerarExtratoPoups(){
+            System.Console.WriteLine($"Saldo da poupança {numeroPoups} = {saldo:C} \tRendimento = {Rendimento}");
         }
     }
 }

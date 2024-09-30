@@ -9,39 +9,42 @@ namespace ComposicaoBanco
 
         public double Saldo{
             get {return saldo;}
+            private set {saldo = value;}
         }
         public double ChequeEspecial{
             get {return chequeEspecial;}
+            private set {chequeEspecial = value;}
         }
 
         public int NumeroConta{
             get {return numeroConta;}
-            set {numeroConta = value;}
+            private set {numeroConta = value;}
         }
 
         public ContaCorrente(){
             //construtor padrão - a cada nova conta corrente definem-se as configurações abaixo
             numeroConta = contador++;
             saldo = 0;
-            chequeEspecial = 100;
+            chequeEspecial = 300;
         }
 
         public double Depositar(double valor){
             saldo += valor;
             return saldo;
         }
-        public double Sacar(double valor){ //revisar - se o cliente sacar mais do que pode a diferenca deve ir para o cheque especial
-            if (valor <= saldo + chequeEspecial){
+        public double Sacar(double valor){ //se o cliente sacar mais do que pode a diferenca deve ir para o cheque especial
+            if (valor <= saldo){
                 saldo -= valor;
                 return saldo;
             }
             else{
-                System.Console.WriteLine("Saldo insuficiente.");
-                return -1;
+                chequeEspecial -= valor - saldo;
+                saldo = 0;
+                return chequeEspecial;
             }
         }
-        public void GerarExtrato(){
-            System.Console.WriteLine("Saldo: "+ saldo+ "Cheque Especial: "+ chequeEspecial);
+        public void GerarExtratoConta(){
+            System.Console.WriteLine("Saldo: "+ saldo+ "\tCheque Especial: "+ chequeEspecial);
         }
     }
 }

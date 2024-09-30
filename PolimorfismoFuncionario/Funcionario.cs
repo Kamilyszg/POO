@@ -26,5 +26,6 @@ namespace PolimorfismoFuncionario
         public virtual double CalcularBonificacao(){
             return Salario * 10/100;
         }
+
     }
 }
