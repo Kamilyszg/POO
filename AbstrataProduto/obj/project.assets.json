@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\aluno\\Downloads\\Poo\\POO\\AbstrataProduto\\AbstrataProduto.csproj",
+      "projectUniqueName": "C:\\Users\\aluno\\Documents\\POO\\POO\\AbstrataProduto\\AbstrataProduto.csproj",
       "projectName": "AbstrataProduto",
-      "projectPath": "C:\\Users\\aluno\\Downloads\\Poo\\POO\\AbstrataProduto\\AbstrataProduto.csproj",
+      "projectPath": "C:\\Users\\aluno\\Documents\\POO\\POO\\AbstrataProduto\\AbstrataProduto.csproj",
       "packagesPath": "C:\\Users\\aluno\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\aluno\\Downloads\\Poo\\POO\\AbstrataProduto\\obj\\",
+      "outputPath": "C:\\Users\\aluno\\Documents\\POO\\POO\\AbstrataProduto\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\aluno\\AppData\\Roaming\\NuGet\\NuGet.Config"

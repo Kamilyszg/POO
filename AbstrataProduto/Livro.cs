@@ -9,7 +9,7 @@ namespace AbstrataProduto
     {
         public string Autor {get; set;}
         public string Isbn {get; set;}
-        public Disco(int codigo, double preco, string autor, string isbn) : base(codigo, preco)
+        public Livro(int codigo, double preco, string autor, string isbn) : base(codigo, preco)
         {
             Autor = autor;
             Isbn = isbn;
