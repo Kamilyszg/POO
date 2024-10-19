@@ -15,11 +15,13 @@ namespace AbstrataFuncionario
         {
             Codigo = codigo;
             Nome = nome;
+            VetF = new List<Funcionario>();
         }
 
         public void MostrarAtributos()
         {
-            System.Console.WriteLine("Código: "+ Codigo +"\tNome: "+Nome);
+            Console.WriteLine($"\n...............Funcionários: {Nome}...............");
+            System.Console.WriteLine("Código: "+ Codigo +"\tDepartamento: "+Nome);
         }
         public void Admitir(Funcionario f)
         {
@@ -53,6 +55,17 @@ namespace AbstrataFuncionario
                 folha += f.CalcularSalario(diasUteis);
             }
             return folha;
+        }
+        public void MostrarQtdeDependentesFuncionario()
+        {
+            foreach (var f in VetF)
+            {
+                if(f.QtdDependentes >=1)
+                {
+                    Console.WriteLine($"O funcionário {f.Nome} tem {f.CalcularTotalDependentes()} dependentes.");
+                    f.ListarDependentes();
+                }
+            }
         }
     }
 }

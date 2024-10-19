@@ -26,7 +26,7 @@ namespace AbstrataFuncionario
         public override void MostrarAtributos()
         {
             base.MostrarAtributos();
-            System.Console.WriteLine("Comissão: "+ Comissao);
+            System.Console.WriteLine("Funcionários comissionados recebem: "+ Comissao);
         }
     }
 }

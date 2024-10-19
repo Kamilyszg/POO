@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aluno\\Documents\\POO\\POO\\AbstrataFuncionario\\AbstrataFuncionario.csproj": {}
+    "C:\\Users\\Kamily Souza Gracia\\Documents\\POO\\POO\\AbstrataFuncionario\\AbstrataFuncionario.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aluno\\Documents\\POO\\POO\\AbstrataFuncionario\\AbstrataFuncionario.csproj": {
+    "C:\\Users\\Kamily Souza Gracia\\Documents\\POO\\POO\\AbstrataFuncionario\\AbstrataFuncionario.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aluno\\Documents\\POO\\POO\\AbstrataFuncionario\\AbstrataFuncionario.csproj",
+        "projectUniqueName": "C:\\Users\\Kamily Souza Gracia\\Documents\\POO\\POO\\AbstrataFuncionario\\AbstrataFuncionario.csproj",
         "projectName": "AbstrataFuncionario",
-        "projectPath": "C:\\Users\\aluno\\Documents\\POO\\POO\\AbstrataFuncionario\\AbstrataFuncionario.csproj",
-        "packagesPath": "C:\\Users\\aluno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aluno\\Documents\\POO\\POO\\AbstrataFuncionario\\obj\\",
+        "projectPath": "C:\\Users\\Kamily Souza Gracia\\Documents\\POO\\POO\\AbstrataFuncionario\\AbstrataFuncionario.csproj",
+        "packagesPath": "C:\\Users\\Kamily Souza Gracia\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kamily Souza Gracia\\Documents\\POO\\POO\\AbstrataFuncionario\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\aluno\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Kamily Souza Gracia\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -58,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

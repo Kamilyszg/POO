@@ -10,6 +10,9 @@ namespace AbstrataFuncionario
         protected int codigo;
         protected string nome;
         protected double salario;
+        protected int qtdDependentes;
+        protected List<Dependente> vetD;
+
         public int Codigo
         {
             get { return codigo; }
@@ -25,6 +28,17 @@ namespace AbstrataFuncionario
             get { return salario; }
             set { salario = value; }
         }
+        public int QtdDependentes
+        {
+            get {return qtdDependentes;}
+            set {qtdDependentes = value;}
+        }
+        public List<Dependente> VetD
+        {
+            get { return vetD; }
+            set { vetD = value; } // Tornar o setter privado
+        }
+
         public Funcionario(int codigo, string nome, double salario)
         {
             Codigo = codigo;
@@ -37,6 +51,37 @@ namespace AbstrataFuncionario
         public virtual void MostrarAtributos()
         {
             System.Console.WriteLine("Código: " + Codigo + "\tNome: " + Nome + "\tSalário: " + Salario);
+        }
+
+        public int CalcularTotalDependentes()
+        {
+            return QtdDependentes;
+        }
+
+        public void AdicionarDependentes(Dependente novoDep)
+        {
+            VetD.Add(novoDep);
+            QtdDependentes++;      
+        }
+
+        public void RemoverDependentesMaiorIdade(int codigo)
+        {
+            for (int i = vetD.Count - 1; i >= 0; i--)
+            {
+                if (VetD[i].VerificarMaiorIdade(VetD[i].Idade))
+                {
+                    VetD.RemoveAt(i);
+                    QtdDependentes--;
+                }
+            }
+        }
+
+        public void ListarDependentes()
+        {
+            foreach (var d in vetD)
+            {
+                d.MostrarAtributosDependentes();
+            }
         }
     }
 }
