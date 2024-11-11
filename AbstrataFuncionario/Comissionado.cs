@@ -11,12 +11,12 @@ namespace AbstrataFuncionario
         public double Comissao
         {
             get { return comissao; }
-            set { comissao = value; }
+            private set { comissao = value; } 
         }
 
-        public Comissionado(int codigo, string nome, double salario, double comissao) : base(codigo,nome,salario)
+        public Comissionado(int codigo, string nome, double salario) : base(codigo,nome,salario)
         {
-            Comissao = comissao;
+            
         }
         
         public override double CalcularSalario (int diasUteis)

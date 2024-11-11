@@ -3,8 +3,8 @@ using AbstrataFuncionario;
 
 Assalariado a1 = new Assalariado(1, "Pedro", 1000);
 Assalariado a2 = new Assalariado(2, "Karina", 1000);
-Comissionado c1 = new Comissionado(3, "Marcio", 1000, 0.20);
-Comissionado c2 = new Comissionado(4, "Christian", 1000, 0.30);
+Comissionado c1 = new Comissionado(3, "Marcio", 1000);
+Comissionado c2 = new Comissionado(4, "Christian", 1000);
 
 Departamento d1 = new Departamento(1, "DEV");
 d1.VetF = new List<Funcionario>();
