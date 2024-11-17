@@ -7,18 +7,24 @@ namespace Trabalho1
 {
     public class ItemVenda
     {
-        private int Quantidade {get; set;}
-        private double Preco {get; set;} // Corrigir - derivado de Produto
-        private List<Produto> vetProd {get; set;}
-        private double Subtotal {get; set;}
+        public Produto Produto { get; set; }
+        public int Quantidade { get; set; }
+        public double Preco { get; private set; }
+        public double Subtotal {get; set;}
 
-        public ItemVenda(int quantidade, double preco){
+        public ItemVenda(Produto produto, int quantidade){
+            Produto = produto;
             Quantidade = quantidade;
-            Preco = preco;
-            vetProd = new List<Produto>();
+            Preco = produto.Preco;
+            Subtotal = CalcularSubtotal();
         }
-        public double CalcularSubtotal(){
-            
+
+        public double CalcularSubtotal()
+        {
+            Subtotal = Quantidade * Preco;
+            if (Quantidade >= 50)
+                Subtotal *= 0.8;
+            return Subtotal;
         }
     }
 }

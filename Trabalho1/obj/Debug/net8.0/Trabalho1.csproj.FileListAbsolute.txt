@@ -1,0 +1,15 @@
+/workspaces/POO/Trabalho1/obj/Debug/net8.0/Trabalho1.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/POO/Trabalho1/obj/Debug/net8.0/Trabalho1.AssemblyInfoInputs.cache
+/workspaces/POO/Trabalho1/obj/Debug/net8.0/Trabalho1.AssemblyInfo.cs
+/workspaces/POO/Trabalho1/obj/Debug/net8.0/Trabalho1.csproj.CoreCompileInputs.cache
+/workspaces/POO/Trabalho1/obj/Debug/net8.0/Trabalho1.sourcelink.json
+/workspaces/POO/Trabalho1/bin/Debug/net8.0/Trabalho1
+/workspaces/POO/Trabalho1/bin/Debug/net8.0/Trabalho1.deps.json
+/workspaces/POO/Trabalho1/bin/Debug/net8.0/Trabalho1.runtimeconfig.json
+/workspaces/POO/Trabalho1/bin/Debug/net8.0/Trabalho1.dll
+/workspaces/POO/Trabalho1/bin/Debug/net8.0/Trabalho1.pdb
+/workspaces/POO/Trabalho1/obj/Debug/net8.0/Trabalho1.dll
+/workspaces/POO/Trabalho1/obj/Debug/net8.0/refint/Trabalho1.dll
+/workspaces/POO/Trabalho1/obj/Debug/net8.0/Trabalho1.pdb
+/workspaces/POO/Trabalho1/obj/Debug/net8.0/Trabalho1.genruntimeconfig.cache
+/workspaces/POO/Trabalho1/obj/Debug/net8.0/ref/Trabalho1.dll

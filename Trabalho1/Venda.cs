@@ -7,16 +7,44 @@ namespace Trabalho1
 {
     public class Venda
     {
-        private string Data {get; set;}
-        private List<ItemVenda> vetItens {get; set;}
-        private Pagamento Pag {get; set;}
-        private double Total {get; set;}
+    public string Data { get; set; }
+        public List<ItemVenda> vetItens { get; set; }
+        public double Total { get; private set; }
+        public Pagamento Pag { get; set; }
 
-        public Venda(string data, double total){
-            Data = data;
+        public Venda(string data){
             vetItens = new List<ItemVenda>();
+            Data = data;
         }
 
-        //criar método para reduzir o estoque - se a venda for efetuada então diminue
+        public void AdicionarItem(ItemVenda item){
+            Total += item.Subtotal;
+            vetItens.Add(item);
+        }
+
+        public bool RealizarVenda()
+        {
+            foreach (ItemVenda item in vetItens)
+            {
+                if (item.Quantidade > item.Produto.Estoque)
+                {
+                    Console.WriteLine($"Estoque insuficiente para o produto {item.Produto.Nome}. Venda cancelada.");
+                    return false;
+                }
+            }
+
+            if (Pag.RealizarPagamento())
+            {
+                foreach (ItemVenda item in vetItens)
+                {
+                    item.Produto.AtualizarEstoque(item.Quantidade);
+                }
+
+                Console.WriteLine($"Venda realizada com sucesso! Total da venda: {Total:C}");
+                return true;
+            }
+
+            return false;
+        }
     }
 }
