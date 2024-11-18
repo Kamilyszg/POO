@@ -1,0 +1,15 @@
+C:\Users\Kamily Souza Gracia\Documents\Fatec\4-modulo\poo\POO\Trabalho3\obj\Debug\net8.0\Trabalho3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kamily Souza Gracia\Documents\Fatec\4-modulo\poo\POO\Trabalho3\obj\Debug\net8.0\Trabalho3.AssemblyInfoInputs.cache
+C:\Users\Kamily Souza Gracia\Documents\Fatec\4-modulo\poo\POO\Trabalho3\obj\Debug\net8.0\Trabalho3.AssemblyInfo.cs
+C:\Users\Kamily Souza Gracia\Documents\Fatec\4-modulo\poo\POO\Trabalho3\obj\Debug\net8.0\Trabalho3.csproj.CoreCompileInputs.cache
+C:\Users\Kamily Souza Gracia\Documents\Fatec\4-modulo\poo\POO\Trabalho3\obj\Debug\net8.0\Trabalho3.sourcelink.json
+C:\Users\Kamily Souza Gracia\Documents\Fatec\4-modulo\poo\POO\Trabalho3\bin\Debug\net8.0\Trabalho3.exe
+C:\Users\Kamily Souza Gracia\Documents\Fatec\4-modulo\poo\POO\Trabalho3\bin\Debug\net8.0\Trabalho3.deps.json
+C:\Users\Kamily Souza Gracia\Documents\Fatec\4-modulo\poo\POO\Trabalho3\bin\Debug\net8.0\Trabalho3.runtimeconfig.json
+C:\Users\Kamily Souza Gracia\Documents\Fatec\4-modulo\poo\POO\Trabalho3\bin\Debug\net8.0\Trabalho3.dll
+C:\Users\Kamily Souza Gracia\Documents\Fatec\4-modulo\poo\POO\Trabalho3\bin\Debug\net8.0\Trabalho3.pdb
+C:\Users\Kamily Souza Gracia\Documents\Fatec\4-modulo\poo\POO\Trabalho3\obj\Debug\net8.0\Trabalho3.dll
+C:\Users\Kamily Souza Gracia\Documents\Fatec\4-modulo\poo\POO\Trabalho3\obj\Debug\net8.0\refint\Trabalho3.dll
+C:\Users\Kamily Souza Gracia\Documents\Fatec\4-modulo\poo\POO\Trabalho3\obj\Debug\net8.0\Trabalho3.pdb
+C:\Users\Kamily Souza Gracia\Documents\Fatec\4-modulo\poo\POO\Trabalho3\obj\Debug\net8.0\Trabalho3.genruntimeconfig.cache
+C:\Users\Kamily Souza Gracia\Documents\Fatec\4-modulo\poo\POO\Trabalho3\obj\Debug\net8.0\ref\Trabalho3.dll

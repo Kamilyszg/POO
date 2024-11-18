@@ -13,3 +13,18 @@
 /workspaces/POO/Trabalho1/obj/Debug/net8.0/Trabalho1.pdb
 /workspaces/POO/Trabalho1/obj/Debug/net8.0/Trabalho1.genruntimeconfig.cache
 /workspaces/POO/Trabalho1/obj/Debug/net8.0/ref/Trabalho1.dll
+C:\Users\Kamily Souza Gracia\Documents\Fatec\4-modulo\poo\POO\Trabalho1\bin\Debug\net8.0\Trabalho1.exe
+C:\Users\Kamily Souza Gracia\Documents\Fatec\4-modulo\poo\POO\Trabalho1\bin\Debug\net8.0\Trabalho1.deps.json
+C:\Users\Kamily Souza Gracia\Documents\Fatec\4-modulo\poo\POO\Trabalho1\bin\Debug\net8.0\Trabalho1.runtimeconfig.json
+C:\Users\Kamily Souza Gracia\Documents\Fatec\4-modulo\poo\POO\Trabalho1\bin\Debug\net8.0\Trabalho1.dll
+C:\Users\Kamily Souza Gracia\Documents\Fatec\4-modulo\poo\POO\Trabalho1\bin\Debug\net8.0\Trabalho1.pdb
+C:\Users\Kamily Souza Gracia\Documents\Fatec\4-modulo\poo\POO\Trabalho1\obj\Debug\net8.0\Trabalho1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kamily Souza Gracia\Documents\Fatec\4-modulo\poo\POO\Trabalho1\obj\Debug\net8.0\Trabalho1.AssemblyInfoInputs.cache
+C:\Users\Kamily Souza Gracia\Documents\Fatec\4-modulo\poo\POO\Trabalho1\obj\Debug\net8.0\Trabalho1.AssemblyInfo.cs
+C:\Users\Kamily Souza Gracia\Documents\Fatec\4-modulo\poo\POO\Trabalho1\obj\Debug\net8.0\Trabalho1.csproj.CoreCompileInputs.cache
+C:\Users\Kamily Souza Gracia\Documents\Fatec\4-modulo\poo\POO\Trabalho1\obj\Debug\net8.0\Trabalho1.sourcelink.json
+C:\Users\Kamily Souza Gracia\Documents\Fatec\4-modulo\poo\POO\Trabalho1\obj\Debug\net8.0\Trabalho1.dll
+C:\Users\Kamily Souza Gracia\Documents\Fatec\4-modulo\poo\POO\Trabalho1\obj\Debug\net8.0\refint\Trabalho1.dll
+C:\Users\Kamily Souza Gracia\Documents\Fatec\4-modulo\poo\POO\Trabalho1\obj\Debug\net8.0\Trabalho1.pdb
+C:\Users\Kamily Souza Gracia\Documents\Fatec\4-modulo\poo\POO\Trabalho1\obj\Debug\net8.0\Trabalho1.genruntimeconfig.cache
+C:\Users\Kamily Souza Gracia\Documents\Fatec\4-modulo\poo\POO\Trabalho1\obj\Debug\net8.0\ref\Trabalho1.dll

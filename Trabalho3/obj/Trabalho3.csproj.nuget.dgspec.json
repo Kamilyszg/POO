@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kamily Souza Gracia\\Documents\\Fatec\\4-modulo\\poo\\POO\\Trabalho1\\Trabalho1.csproj": {}
+    "C:\\Users\\Kamily Souza Gracia\\Documents\\Fatec\\4-modulo\\poo\\POO\\Trabalho3\\Trabalho3.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kamily Souza Gracia\\Documents\\Fatec\\4-modulo\\poo\\POO\\Trabalho1\\Trabalho1.csproj": {
+    "C:\\Users\\Kamily Souza Gracia\\Documents\\Fatec\\4-modulo\\poo\\POO\\Trabalho3\\Trabalho3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kamily Souza Gracia\\Documents\\Fatec\\4-modulo\\poo\\POO\\Trabalho1\\Trabalho1.csproj",
-        "projectName": "Trabalho1",
-        "projectPath": "C:\\Users\\Kamily Souza Gracia\\Documents\\Fatec\\4-modulo\\poo\\POO\\Trabalho1\\Trabalho1.csproj",
+        "projectUniqueName": "C:\\Users\\Kamily Souza Gracia\\Documents\\Fatec\\4-modulo\\poo\\POO\\Trabalho3\\Trabalho3.csproj",
+        "projectName": "Trabalho3",
+        "projectPath": "C:\\Users\\Kamily Souza Gracia\\Documents\\Fatec\\4-modulo\\poo\\POO\\Trabalho3\\Trabalho3.csproj",
         "packagesPath": "C:\\Users\\Kamily Souza Gracia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kamily Souza Gracia\\Documents\\Fatec\\4-modulo\\poo\\POO\\Trabalho1\\obj\\",
+        "outputPath": "C:\\Users\\Kamily Souza Gracia\\Documents\\Fatec\\4-modulo\\poo\\POO\\Trabalho3\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Kamily Souza Gracia\\AppData\\Roaming\\NuGet\\NuGet.Config"
